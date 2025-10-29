@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TC Test App</string>
+    <string name="press_to_load_content">Press \'Load Content\' to fetch and process the website text.</string>
+    <string name="website_content">Website Content:</string>
+    <string name="fifteenth_character">15th Character</string>
+    <string name="fifteenth_character_value">15th Character: \'%1$s\'</string>
+    <string name="every_fifteenth_character">Every 15th Character</string>
+    <string name="every_fifteenth_characters_value">Every 15th Characters:\n%1$s</string>
+    <string name="word_count">Word Count</string>
+    <string name="word_count_value">Word Count:\n%1$s</string>
+    <string name="load_content">Load Content</string>
+    <string name="dismiss">Dismiss</string>
+</resources>
