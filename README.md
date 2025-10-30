@@ -8,6 +8,19 @@ It analyzes web content fetched from a remote source and provides results such a
 
 ---
 
+## Environment
+
+- **Java Version**: 17
+- **Kotlin Version**: 1.9.0
+- **Android Gradle Plugin (AGP)**: 8.4.1
+- **Android SDK**:
+  - **Compile SDK**: 36
+  - **Target SDK**: 36
+  - **Min SDK**: 29
+- **Android Studio Version**: Jellyfish | 2023.3.1 Patch 1
+
+---
+
 ## Project Structure
 
 The project is divided into three modules following **Clean Architecture** principles:
@@ -18,10 +31,10 @@ The project is divided into three modules following **Clean Architecture** princ
 **Responsibilities:**
 - Declares interfaces (e.g., `ContentRepository`).
 - Implements independent use cases:
-    - `GetContentUseCase` – Fetches raw text content.
-    - `Get15thCharacterUseCase` – Finds the 15th character.
-    - `GetEvery15thCharacterUseCase` – Extracts every 15th character.
-    - `GetWordCountsUseCase` – Computes word frequencies.
+  - `GetContentUseCase` – Fetches raw text content.
+  - `Get15thCharacterUseCase` – Finds the 15th character.
+  - `GetEvery15thCharacterUseCase` – Extracts every 15th character.
+  - `GetWordCountsUseCase` – Computes word frequencies.
 - Framework styled and fully unit-testable.
 
 ---
